@@ -12,7 +12,7 @@ namespace Course.Application.Features.Languages.Commands.CreateLanguage
 
         public CreateLanguageCommandValidator()
         {
-            RuleFor(l=>l.Name).NotEmpty();
+            RuleFor(l => l.Name).NotEmpty();
             RuleFor(l => l.Name).MinimumLength(2);
         }
     }

@@ -16,7 +16,7 @@ namespace Course.Application.Features.Languages.Commands.CreateLanguage
     public class CreateLanguageCommand:IRequest<CreatedLanguageDto>
     {
 
-        public  string Name {  get; set; }
+        public string Name { get; set; }
 
 
 

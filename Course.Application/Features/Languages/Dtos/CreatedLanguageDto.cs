@@ -10,5 +10,6 @@ namespace Course.Application.Features.Languages.Dtos
     {
         public int Id { get; set; } 
         public string Name { get; set; }
+        public DateTime ExperienceDate { get; set; }
     }
 }
